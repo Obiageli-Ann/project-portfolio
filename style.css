@@ -28,3 +28,21 @@ footer p {
   font-size: 16px;
   font-weight: normal;
 }
+@media (max-width: 700px) {
+  p {
+    font-size: 12px;
+  }
+  .container {
+    margin: 20px 0;
+  }
+    footer img {
+  width: 120px;
+}
+i{
+  padding-right: 5px; 
+}
+footer p {
+  font-size: 10px;
+  font-weight: bold;
+  }
+}
