@@ -1,11 +1,30 @@
-h1{
+
+body{
+  color: 272142;
+}
+/* h1{
   color: green;
   font-family: "Nunito", sans-serif;
-font-weight: 700;
+ font-weight: 700;
+} */
+p {
+margin-top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+} 
+footer {
+  background: #F9F7FE;
+  padding-top: 40px;
 }
-p, i{
-  color: goldenrod;
+footer img {
+  width: 120px;
+}
+i{
+  padding-right: 25px; 
+}
+footer p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal ;
+  font-size: 16px;
+  font-weight: normal;
 }
