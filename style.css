@@ -1,17 +1,97 @@
-
 body{
   color: 272142;
+  font-family: "Nunito", sans-serif;
 }
-/* h1{
-  color: green;
-  font-family: "Nunito", sans-serif;
+.bg-hero {
+  background-image: url("./images/overlay.png");
+  background-size: cover;
+  min-height: 200px;
+  color: white;
+}
+h1,h2,h3,h4,h5,h6{
  font-weight: 700;
-} */
+}
+h1{
+ font-size: 72px;
+} 
+h2{
+ font-size: 24px;
+ line-height: 35px;
+}
+h3{
+ font-size: 64px;
+}
+h4{
+ font-size: 36px;
+}
+h5{
+  font-size: 18px;
+  color: #662EED;
+  margin-top: 30px;
+}
+.my-info{
+  padding: 80px;
+}
+.details{
+  padding: 20px 3px;
+   font-size: 18px;
+   font-weight: normal;
+   line-height: 30px;
+}
+.meal-info {
+   font-size: 16px;
+   font-weight: normal;
+   line-height: 25px;
+}
+.foodie{
+  font-size: 24px;
+  font-weight: bold;
+}
+.recipe-container{
+  max-width: 68%;
+}
+.contact-info{
+  font-size: 24px;
+  font-weight: normal;
+}
+i, .contact-info a{
+  color: #272142;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+i:hover, .contact-info a:hover{
+color: #662EED;
+}
+nav {
+  margin: 20px 0;
+}
+.logo{
+  width: 150px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  margin-left: 15px;
+}
+nav a{
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover, li.active a{
+  color: #662EED;
+}
 p {
-margin-top: 5px;
-  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
   font-size: 28px;
   font-weight: bold;
+}
+li{
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
 } 
 footer {
   background: #F9F7FE;
@@ -29,13 +109,41 @@ footer p {
   font-weight: normal;
 }
 @media (max-width: 700px) {
-  p {
-    font-size: 12px;
-  }
-  .container {
-    margin: 20px 0;
-  }
-    footer img {
+h1{
+  font-size: 39px;
+} 
+h2,
+.contact-info{
+  font-size: 14px;
+  line-height: 20px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 26px;
+}
+.my-info{
+  padding: 40px;
+}
+.details, li, h5{
+   font-size: 14px;
+   line-height: 18px;
+}
+p,.steps,.foodie {
+  font-size: 12px;
+}
+.meal-info {
+  font-size: 10px;
+  line-height: 13px;
+}
+.container {
+  margin: 20px 0;
+}
+.recipe-container{
+  max-width: fit-content;
+}
+footer img, .logo {
   width: 80px;
 }
 i{
