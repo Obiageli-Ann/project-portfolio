@@ -149,8 +149,9 @@ footer img, .logo {
 i{
   padding-right: 5px; 
 }
-footer p {
+footer p, .sourced-link{
   font-size: 10px;
   font-weight: bold;
   }
+ 
 }
